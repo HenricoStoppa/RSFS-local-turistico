@@ -1,0 +1,164 @@
+:root {
+    /* COLORS */
+    --background-default: #f5f4f0;
+
+    --border-primary: #d9d9d9;
+
+    --text-primary: #1b1b1b;
+    --text-secondary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #e1624f;
+
+    --accent-blue: #0c52a7;
+    --accent-orange: #e95e10;
+    --accent-pink: #e5245e;
+    --accent-purple: #591b98;
+}
+
+/* GLOBAL */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-default);
+
+    font-family: "Open Sans", sans-serif;
+}
+
+hr {
+    border-color: var(--border-primary);
+}
+
+#main-container {
+    width: 1280px;
+
+    margin: auto;
+    padding: 0 48px;
+}
+
+/* SECTIONS */
+
+#section-next-trip,
+#section-history-lovers {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 64px;
+}
+
+.section-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--text-headline);
+}
+
+.section-subtitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--text-primary);
+
+    margin-bottom: 8px;
+}
+
+.main-img {
+    width: 1120px;
+    height: 660px;
+
+    margin: 40px auto;
+}
+
+.section-img-description {
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+
+    margin: 15px 0 40px;
+}
+
+.section-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-secondary);
+
+    margin-bottom: 64px;
+}
+
+/* LISTS */
+
+.destination-item-img {
+    margin: 0 auto 20px;
+}
+
+.destination-item {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--text-primary);
+}
+
+.destination-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--text-primary);
+
+    margin-bottom: 4px;
+}
+
+.destination-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-secondary);
+}
+
+.destination-benefits-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--text-primary);
+
+    margin-top: 16px;
+}
+
+.destination-benefits-list {
+    font-size: 16px;
+    color: var(--accent-blue);
+
+    list-style-type: disc;
+
+    margin-bottom: 48px;
+}
+
+.more-itens .destination-benefits-itens:first-child {
+    color: var(--accent-purple);
+}
+
+.more-itens .destination-benefits-itens {
+    color: var(--accent-pink);
+}
+
+.more-itens .destination-benefits-itens:last-child {
+    color: var(--accent-orange);
+}
+
+/* END */
+
+.end {
+    margin-top: 40px;
+}
+
+.end-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-primary);
+    text-align: center;
+}
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+
+    margin: 80px 0 60px;
+}
